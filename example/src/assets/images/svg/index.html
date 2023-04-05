@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icons</title>
+</head>
+<body>
+    <main id="main">
+        
+    </main>
+</body>
+
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        width: 100vw;
+        height: 100vh;
+        display:  flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50px;
+        height: 30px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        color: #fff;
+    }
+</style>
+
+<script>
+    const DOM = document.getElementById("main");
+    let HTML = '';
+    let i;
+    for(i = 1; i <= 90; i++){
+        HTML += `<div>
+            <img src="./svgexport-${i}.svg" alt="" srcset="">
+            <caption> <p> ${i} </p> </caption>
+        </div>`
+    }
+    DOM.innerHTML = HTML;
+</script>
+
+</html>

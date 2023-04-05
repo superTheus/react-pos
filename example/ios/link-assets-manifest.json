@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/sharon_sans_bold.otf",
+      "sha1": "3ef6793c6231a81b4e0ff1e5457706f4b510759d"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_bold_italic.otf",
+      "sha1": "3f220669469464d53f0eeb534f298413f0fada14"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_light.otf",
+      "sha1": "10b5a45c52ca121a4c3e26cd1a6438cb5ab8c34a"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_medium.otf",
+      "sha1": "6b66d7caa527dd549e277fc7723088f6d6a4ea4b"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_medium_italic.otf",
+      "sha1": "2af3c434c0170f5cdf85abdbebe09282987d7b27"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_regular.otf",
+      "sha1": "450084e99926550d4bca73654b2cd09d3398487d"
+    },
+    {
+      "path": "src/assets/fonts/sharon_sans_regular_italic.otf",
+      "sha1": "648a2c898bf8df09171423d2dbcbc221ca67fe1e"
+    }
+  ]
+}
